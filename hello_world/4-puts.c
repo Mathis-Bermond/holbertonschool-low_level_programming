@@ -1,2 +1,7 @@
-#!/bin/bash
-gcc $CFILE
+#include <stdio.h>
+/* Print Something*/
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
+}
