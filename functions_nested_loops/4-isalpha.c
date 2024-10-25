@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
-*_isalpha - Test _isalpha
+/**
+*_isalpha - Touch
 *
-*@c: int
+* @c: int
 *
-*Return: 1 or 0
+* Return: 1 or 0
 */
 
 int _isalpha(int c)
