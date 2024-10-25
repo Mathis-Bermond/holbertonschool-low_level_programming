@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _abs - trying
- * 
- * @r: int
- * 
- * Return: 0
+ * _abs - Entry point
+ *
+ * @n: int
+ *
+ * Return: Always 0 (Success)
  */
 
 int _abs(int n)
