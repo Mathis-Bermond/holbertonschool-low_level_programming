@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_alphabet_x10 - check the code.
  *
@@ -8,12 +7,12 @@
 
 void print_alphabet_x10(void)
 {
-	char r;
 	int i;
+	int r;
 
-	for (i = '0' ; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
-		for (r = 'a'; r <= 'z')
+		for (r = 'a'; r <= 'z';)
 		{
 			_putchar(r);
 			r++;
