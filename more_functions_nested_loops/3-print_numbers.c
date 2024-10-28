@@ -3,8 +3,7 @@
 /**
 * print_numbers - Ok
 *
-* @i : OK
-*
+*Return: nothing
 */
 
 void print_numbers(void)
