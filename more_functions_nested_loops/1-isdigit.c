@@ -9,13 +9,14 @@
 */
 
 int _isdigit(int c)
+
 {
-	if (c <= 126 && c >= 64)
+	if (c <= '9' && c >= '0')
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
