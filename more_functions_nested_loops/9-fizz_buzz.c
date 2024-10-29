@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*FizzBuzz - Test
+*fizz_buzz - Test
 *@i
 *
 *Return: Test
