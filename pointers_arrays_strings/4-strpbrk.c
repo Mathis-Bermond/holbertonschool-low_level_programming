@@ -10,9 +10,6 @@
 * @accept, or NULL if no such byte is found.
 */
 
-char *_strpbrk(char *s, char *accept)
-
-{
 	char *_strpbrk(char *s, char *accept)
 {
 	int i;
@@ -27,5 +24,4 @@ char *_strpbrk(char *s, char *accept)
 		s++;
 	}
 	return (NULL);
-}
 }
