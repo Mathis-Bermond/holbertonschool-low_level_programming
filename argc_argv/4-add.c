@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * main - Test
@@ -11,20 +12,28 @@
 
 int main(int argc, char *argv[])
 {
-	int num1, num2, addition;
+	int sum = 0;
+	int i, j;
 
-	for (num1 = 1; num1 < argc; a++)
+	if (argc == 1)
 	{
-		for (num2 = 0; argv[num1][num2] != '\0'; num2++)
+		printf("0\n");
+		return (0);
+	}
+
+	for (i = 1; i < argc; i++)
+	{
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (!isdigit(argv[num1][num2]))
+			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
 		}
-		addition = addition + atoi(argv[num1]);
+		sum += atoi(argv[i]);
 	}
-	printf("%i\n", addition);
+
+	printf("%d\n", sum);
 	return (0);
 }
