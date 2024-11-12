@@ -2,11 +2,13 @@
 #include <stdio.h>
 
 /**
- * 
- * 
- * 
- * 
- */
+* main - Test
+*
+* @argc:Test
+* @argv:
+*
+* Return: 0
+*/
 
 int main(int argc, char __attribute__((unused)) *argv[])
 {
