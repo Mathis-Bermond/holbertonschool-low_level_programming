@@ -2,11 +2,11 @@
 
 /**
  * string_nconcat - A function that concatenates two strings.
- * 
+ *
  * @s1: inpout
  * @s2: output
- * @n
- * rturn: a
+ * @n: number
+ * Return: a
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
