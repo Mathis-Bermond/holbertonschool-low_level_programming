@@ -14,7 +14,7 @@ int _strlen(char *s)
 {
 	int count = 0;
 
-	if (s != '\0')
+	if (s != NULL)
 	{
 		while (*(s + count) != '\0')
 			count++;
@@ -52,6 +52,7 @@ char *_strcpy(char *dest, char *src)
  * @owner: owner
  * Return: pointer to new struct
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	int len_name, len_owner;
