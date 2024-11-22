@@ -5,13 +5,13 @@
 
 /**
  * print_strings - A function that prints strings, followed by a new line.
- * 
+ *
  * @separator: The string to be printed between the strings
  * @n: the number of strings passed to the function
- * 
- * 
+ *
+ * Return: Void
  */
- 
+
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	char *sep, *ptr;
